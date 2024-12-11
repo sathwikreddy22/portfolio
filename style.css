@@ -436,3 +436,193 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Sticky Navbar */
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a:hover {
+  color: #0073e6;
+}
+
+/* Profile Section */
+.profile-section {
+  text-align: center;
+  background: linear-gradient(to right, #0073e6, #00aaff);
+  color: white;
+  padding: 5rem 1rem;
+}
+
+.section__pic-container img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.icon {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.icon:hover {
+  color: #00aaff;
+}
+
+/* About Section */
+#about {
+  padding: 4rem 2rem;
+}
+
+.card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-icon {
+  font-size: 3rem;
+  color: #0073e6;
+}
+
+/* Skills Section */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.skill {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background: #0073e6;
+  height: 10px;
+}
+
+/* Projects Section */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* Contact Section */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+input, textarea, button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background: #0073e6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f0f0f0;
+}
+
+.back-to-top {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #0073e6;
+  color: white;
+  border-radius: 5px;
+}
+
+.back-to-top:hover {
+  background: #005bb5;
+}
